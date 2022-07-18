@@ -1,0 +1,130 @@
+/* main color for text: #757575; */
+/* main color for text in header: #212121; */
+/* secondary color for text: #FFFFFF; */
+/* color accent: #2196F3 */
+
+/* main background color: #FFFFFF; */
+/* secondary background color: #2F303A */
+/* another background color: #F5F4FA */
+
+/* common selectors */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-white-color: #F5F4FA;
+    --secondary-background-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    color: var(--title-text-color);
+}
+
+.link.current {
+    color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.primary-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: 0px;
+}
+
+.secondary-button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-white-color);
+    border: 0px;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: 0px;
+}
+
+/* HEADER */
+
+/* Navigation */
+/* logo */
+nav .logo {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+/* links for pages */
+nav .link {
+    color: var(--title-text-color);
+}
+
+nav .link:hover,
+nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.contact {
+    color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
+
+/* MAIN */
+/* Order a service */
+.section-order {
+    background-color: var(--secondary-background-color);
+}
+.section-order .title {
+    color: var(--primary-white-color);
+}
+
+
+/* Our team */
+.section-team {
+    background-color: var(--secondary-white-color);
+}
+
+
+/* FOOTER */
+/* address */
+footer{
+    background-color: var(--secondary-background-color);
+}
+
+footer .link {
+    color: var(--primary-white-color);
+}
