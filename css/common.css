@@ -51,24 +51,6 @@ body {
     overflow: hidden;
 }
 
-.primary-button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    border: 0px;
-}
-
-.secondary-button {
-    color: var(--title-text-color);
-    background-color: var(--secondary-white-color);
-    border: 0px;
-}
-
-.secondary-button:hover,
-.secondary-button:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    border: 0px;
-}
 
 /* HEADER */
 
@@ -112,6 +94,12 @@ nav .link:focus {
     color: var(--primary-white-color);
 }
 
+.primary-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: 0px;
+}
+
 
 /* Our team */
 .section-team {
@@ -127,4 +115,19 @@ footer{
 
 footer .link {
     color: var(--primary-white-color);
+}
+
+/* PORTFOLIO PAGE */
+/* buttons */
+.secondary-button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-white-color);
+    border: 0px;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: 0px;
 }
