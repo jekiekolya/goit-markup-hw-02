@@ -20,6 +20,9 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 .list {
@@ -32,6 +35,9 @@ body {
 
 .title {
     color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .link.current {
@@ -53,8 +59,11 @@ body {
 
 
 /* HEADER */
-
-/* Navigation */
+header {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 /* logo */
 nav .logo {
     text-decoration: none;
@@ -63,6 +72,13 @@ nav .logo {
 
 .logo span {
     color: var(--accent-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 /* links for pages */
@@ -92,18 +108,60 @@ nav .link:focus {
 }
 .section-order .title {
     color: var(--primary-white-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .primary-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     border: 0px;
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
+/* Our adventages */
+.section-adventage p {
+    line-height: 1.71;
+}
+
+/* What we are doing */
+.section-work .title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 
 /* Our team */
 .section-team {
     background-color: var(--secondary-white-color);
+}
+
+.section-team > .title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.title.hero {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.section-team p {
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 
@@ -117,17 +175,38 @@ footer .link {
     color: var(--primary-white-color);
 }
 
+address .link {
+    font-style: normal;
+    line-height: 1.71;
+}
+
 /* PORTFOLIO PAGE */
 /* buttons */
 .secondary-button {
     color: var(--title-text-color);
     background-color: var(--secondary-white-color);
     border: 0px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
 .secondary-button:hover,
 .secondary-button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    border: 0px;
+}
+
+.section-portfolio .title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section-portfolio p {
+        font-size: 16px;
+        line-height: 1.88;
 }
