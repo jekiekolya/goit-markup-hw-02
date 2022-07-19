@@ -57,6 +57,9 @@ body {
     overflow: hidden;
 }
 
+button {
+    cursor: pointer;
+}
 
 /* HEADER */
 header {
@@ -180,6 +183,11 @@ address .link {
     line-height: 1.71;
 }
 
+address .link:hover,
+address .link:focus {
+    color: var(--accent-color);
+}
+
 /* PORTFOLIO PAGE */
 /* buttons */
 .secondary-button {
@@ -199,6 +207,7 @@ address .link {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
 
 .section-portfolio .title {
     font-size: 18px;
