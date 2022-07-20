@@ -33,13 +33,6 @@ body {
     text-decoration: none;
 }
 
-.title {
-    color: var(--title-text-color);
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
 .link.current {
     color: var(--accent-color);
 }
@@ -106,10 +99,10 @@ nav .link:focus {
 
 /* MAIN */
 /* Order a service */
-.section-order {
+.order {
     background-color: var(--secondary-background-color);
 }
-.section-order .title {
+.order-title {
     color: var(--primary-white-color);
     
     font-weight: 900;
@@ -117,6 +110,7 @@ nav .link:focus {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .primary-button {
@@ -134,35 +128,38 @@ nav .link:focus {
 }
 
 /* Our adventages */
-.section-adventage p {
+.adventage-title {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.adventage-desc {
     line-height: 1.71;
 }
 
 /* What we are doing */
-.section-work .title {
+.section-title {
+    color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
 /* Our team */
-.section-team {
+.team {
     background-color: var(--secondary-white-color);
 }
 
-.section-team > .title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-.title.hero {
+.hero-title {
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 
-.section-team p {
+.hero-desc {
     font-size: 16px;
     line-height: 1.2;
 }
@@ -181,11 +178,6 @@ footer .link {
 address .link {
     font-style: normal;
     line-height: 1.71;
-}
-
-address .link:hover,
-address .link:focus {
-    color: var(--accent-color);
 }
 
 /* PORTFOLIO PAGE */
@@ -208,14 +200,20 @@ address .link:focus {
     background-color: var(--accent-color);
 }
 
+.secondary-button.current {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
 
-.section-portfolio .title {
+
+.icon-title {
+    color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.section-portfolio p {
+.icon-desc {
         font-size: 16px;
         line-height: 1.88;
 }
